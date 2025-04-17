@@ -1,0 +1,10 @@
+{
+  "python.pythonPath": "C:\\Users\\jerin\\Downloads\\project\\backend\\venv\\Scripts\\python.exe",
+  "python.defaultInterpreterPath": "C:\\Users\\jerin\\Downloads\\project\\backend\\venv\\Scripts\\python.exe",
+  "python.analysis.extraPaths": [
+    "C:\\Users\\jerin\\Downloads\\project\\backend\\venv\\Lib\\site-packages"
+  ],
+  "python.analysis.indexing": true,
+  "python.analysis.diagnosticMode": "workspace",
+  "python.analysis.useLibraryCodeForTypes": true
+}

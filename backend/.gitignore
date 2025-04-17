@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.env
+backend.log
+generated_audio/
+audiogen-medium/

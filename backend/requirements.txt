@@ -1,0 +1,11 @@
+Flask
+boto3
+requests
+transformers
+audiocraft
+psycopg2
+bcrypt
+torch
+gtts
+numpy
+soundfile
