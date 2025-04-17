@@ -2,15 +2,35 @@
 
 AudioCraft provides the code and models for JASCO, a temporally controlled text-to-music generation model utilizing both symbolic and audio-based conditions. JASCO can generate high-quality music samples conditioned on global text descriptions along with fine-grained local controls.
 
+## Project Overview
+
+JASCO is designed to facilitate the generation of music that aligns with textual descriptions, making it a powerful tool for artists, developers, and researchers interested in the intersection of music and artificial intelligence.
+
+## Features
+
+- High-quality music generation based on text descriptions.
+- Support for chords, drums, and melody in generated music.
+- Interactive demos for easy experimentation.
+
 ## Installation
 
 First, please follow the AudioCraft installation instructions. Then, download and install `chord_extractor` from [source](http://www.isophonics.net/nnls-chroma).
+
+## Requirements
+
+- Python 3.x
+- Required libraries as specified in `requirements.txt`
 
 ## Usage
 
 You can interact with JASCO in two ways:
 1. Use the gradio demo locally by running `python -m demos.jasco_app`, adding `--share` to deploy a sharable space.
 2. Run the Jupyter notebook at `demos/jasco_demo.ipynb` locally.
+
+### Example Command
+```bash
+python -m demos.jasco_app --share
+```
 
 ## API
 
@@ -27,6 +47,10 @@ To use the JascoDataset with chords/melody conditioning, follow the instructions
 ## Training
 
 The JascoSolver implements JASCO's training pipeline. Note that we do NOT provide any of the datasets used for training JASCO.
+
+## Contributing
+
+We welcome contributions! Please see the [CONTRIBUTING.md](backend/audiocraft/CONTRIBUTING.md) file for guidelines.
 
 ## Citation
 

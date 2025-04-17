@@ -4,3 +4,18 @@ __pycache__/
 backend.log
 generated_audio/
 audiogen-medium/
+# .gitignore
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.dll
+*.lib
+*.exe
+*.so
+*.zip
+*.tar.gz
+*.egg-info/
+*.dist-info/
